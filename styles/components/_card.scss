@@ -1,0 +1,63 @@
+.article-wrapper {
+  @include card;
+
+  .header-card {
+    @include flex(flex-end);
+    @include fontBold($font-size-large); 
+    line-height: 30px;
+    
+    div {
+      @include font($main-bg-color); 
+      border-radius: 10px;
+      background-color: $secundary-color;
+      padding: 3px 15px;
+      
+    }
+  }
+  .available {
+    @include flex(space-between);  
+   
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  .article-container {
+    padding: $padding-card;
+
+    .job-title-container{
+
+      h2 {
+        @include fontBold($font-size-large);
+        margin: 15px 0px;
+      }
+
+      span {
+        @include font($main-color);
+      }
+
+      .freelancer {
+        color: $secundary-color;
+         
+        &::before{
+          content: "/f007";
+          font-family: 'FontAwesome';
+          font-weight: 900;
+        }
+      }
+    }
+  }
+
+  p{
+    @include font($text-color);
+    margin: 0;
+    
+  }
+
+  button {
+    @include button;
+    @include fontBold($font-size-main);
+  }
+}
+

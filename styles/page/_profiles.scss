@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: $font-main;
+}
+
+.main-wrapper {
+  text-align: center;
+  background-color: $body-bg-color; 
+}
+
+h1 {
+  @include fontBold(30px);
+  padding: $padding-main;
+  margin: 0;
+}
+
+.articles-wrapper { 
+  @include flex(center);
+  flex-wrap: wrap;
+  
+}

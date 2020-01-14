@@ -1,0 +1,55 @@
+@mixin flex ($justify: null, $direction: null, $align: null) {
+  display: flex;
+  justify-content: $justify;
+  flex-direction: $direction;
+  align-items: $align;
+}
+
+@mixin card {
+  width: $card-width;
+  height: $card-height;
+  background-color: #fcfcfd;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);  
+  margin: $margin-card;
+}
+
+@mixin chip {
+ 
+  div {
+    border: 1px solid;
+    padding: $padding-chip;
+    border-radius: 10px;
+    border-color: $border-color;   
+  }
+  .chip-bg {
+    background-color: $main-color;
+    color: $main-bg-color;
+  }
+
+}
+
+@mixin button {
+  width: $btn-width;
+  line-height: $btn-line-height;  
+  background-color: $main-bg-color;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $main-color;
+    transition: 0.3s;
+    color: $main-bg-color;
+    
+  }
+}
+
+@mixin fontBold($size) {
+  font-size: $size;
+  color: $text-color-bold;
+  font-weight: bold;
+}
+
+@mixin font($color) {
+  font-size: $font-size-main;
+  color: $color;
+}

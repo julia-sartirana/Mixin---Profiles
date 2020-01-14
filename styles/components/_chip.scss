@@ -1,0 +1,6 @@
+.chips-container {
+  @include flex(space-between);
+  @include chip;
+  @include fontBold($font-size-main);
+  margin: 15px 10px;
+}
