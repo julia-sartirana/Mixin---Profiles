@@ -100,14 +100,14 @@
   list-style: none;
   color: #B6B8BB; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/layout\/_header\.scss}line{font-family:\0000310}}
-  .nav-items .add-profile {
-    display: flex;
-    justify-content: flex-end;
-    color: #68b4e4; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/layout\/_header\.scss}line{font-family:\0000316}}
-.nav-item {
-  margin: 12px; }
+  .nav-items .nav-item {
+    margin: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/layout\/_header\.scss}line{font-family:\0000314}}
+    .nav-items .nav-item:nth-child(4) {
+      color: #68b4e4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/layout\/_header\.scss}line{font-family:\0000314}}
+    .nav-items .nav-item:nth-child(5) {
+      color: #68b4e4; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/page\/_profiles\.scss}line{font-family:\000031}}
 body {

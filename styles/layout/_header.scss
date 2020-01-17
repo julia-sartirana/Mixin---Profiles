@@ -7,12 +7,14 @@
   list-style: none;
   color: $text-color;
 
-  .add-profile {
-    @include flex(flex-end);
-    color: $main-color;
-  }
+  .nav-item {
+    margin: $margin-nav;
+
+    @for $i from 4 through 5 {
+      &:nth-child(#{$i}) {
+        color: $main-color;
+      }
+    }
+  }  
 }
 
-.nav-item {
-  margin: $margin-nav;
-}
