@@ -1,9 +1,11 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\000031}}
 .article-wrapper {
   width: 320px;
   height: 450px;
   background-color: #fcfcfd;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   margin: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\000034}}
   .article-wrapper .header-card {
     display: flex;
     justify-content: flex-end;
@@ -11,37 +13,48 @@
     color: #424954;
     font-weight: bold;
     line-height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\000039}}
     .article-wrapper .header-card div {
       font-size: 14px;
       color: #fcfcfd;
       border-radius: 10px;
       background-color: #4ced4c;
       padding: 3px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\0000317}}
   .article-wrapper .available {
     display: flex;
     justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\0000322}}
   .article-wrapper img {
     border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\0000326}}
   .article-wrapper .article-container {
     padding: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\0000331}}
     .article-wrapper .article-container .job-title-container h2 {
       font-size: 22px;
       color: #424954;
       font-weight: bold;
       margin: 15px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\0000336}}
     .article-wrapper .article-container .job-title-container span {
       font-size: 14px;
       color: #68b4e4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\0000339}}
+      .article-wrapper .article-container .job-title-container span::before {
+        content: "\f007";
+        font-family: 'Font Awesome\ 5 Free';
+        font-weight: 900;
+        padding-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\0000347}}
     .article-wrapper .article-container .job-title-container .freelancer {
       color: #4ced4c; }
-      .article-wrapper .article-container .job-title-container .freelancer::before {
-        content: "/f007";
-        font-family: 'FontAwesome';
-        font-weight: 900; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\0000354}}
   .article-wrapper p {
     font-size: 14px;
     color: #B6B8BB;
     margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_card\.scss}line{font-family:\0000360}}
   .article-wrapper button {
     width: 100%;
     line-height: 70px;
@@ -50,12 +63,14 @@
     font-size: 14px;
     color: #424954;
     font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/abstract\/_mixins\.scss}line{font-family:\0000337}}
     .article-wrapper button:hover {
       cursor: pointer;
       background-color: #68b4e4;
       transition: 0.3s;
       color: #fcfcfd; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/components\/_chip\.scss}line{font-family:\000031}}
 .chips-container {
   display: flex;
   justify-content: space-between;
@@ -63,39 +78,48 @@
   color: #424954;
   font-weight: bold;
   margin: 15px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/abstract\/_mixins\.scss}line{font-family:\0000318}}
   .chips-container div {
     border: 1px solid;
     padding: 5px 15px;
     border-radius: 10px;
     border-color: #e4e5e9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/abstract\/_mixins\.scss}line{font-family:\0000324}}
   .chips-container .chip-bg {
     background-color: #68b4e4;
     color: #fcfcfd; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/layout\/_header\.scss}line{font-family:\000031}}
 .header-wrapper {
   border-bottom: solid #e4e5e9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/layout\/_header\.scss}line{font-family:\000035}}
 .nav-items {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   color: #B6B8BB; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/layout\/_header\.scss}line{font-family:\0000310}}
   .nav-items .add-profile {
     display: flex;
     justify-content: flex-end;
     color: #68b4e4; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/layout\/_header\.scss}line{font-family:\0000316}}
 .nav-item {
   margin: 12px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/page\/_profiles\.scss}line{font-family:\000031}}
 body {
   margin: 0;
   font-family: "Roboto"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/page\/_profiles\.scss}line{font-family:\000036}}
 .main-wrapper {
   text-align: center;
   background-color: #f1f1f1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/page\/_profiles\.scss}line{font-family:\0000311}}
 h1 {
   font-size: 30px;
   color: #424954;
@@ -103,6 +127,7 @@ h1 {
   padding: 20px;
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2024\%20-\%20Perfiles\%20mixins\%20sass\/styles\/page\/_profiles\.scss}line{font-family:\0000317}}
 .articles-wrapper {
   display: flex;
   justify-content: center;
